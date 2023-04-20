@@ -13,7 +13,7 @@ print(
 class Student(Person):
 
     def __init__(self, fullname1, age1, is_married1, marks1):
-        super().init(fullname1, age1, is_married1)
+        super().__init__(fullname1, age1, is_married1)
         self.marks = marks1
 
     marks = {'math': 5, "history": 4, 'english': 4, "physics": 5, 'biology': 5, 'chemistry': 3, 'literature': 5,

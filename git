@@ -1,0 +1,16 @@
+gitignore
+
+
+начало
+git init
+git remote add origin '...'
+
+git add
+git commit -m '...'
+git push origin master/ main
+
+
+
+удалить
+git rm --cached -r namedir
+git rm --cached namefile
